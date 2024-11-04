@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "No Forcedownload",
+  "version": "1.0",
+  "description": "Removes parameters like 'forcedownload' to prevent unprompted automatic downloads",
+  "permissions": ["webRequest", "webRequestBlocking", "tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
